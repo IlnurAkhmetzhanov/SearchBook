@@ -1,0 +1,125 @@
+.Search {
+  &-wrapper {
+    min-height: 300px;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./assets/background.jpg) 50%;
+    ​​​​​​​background-repeat: no-repeat;
+    background-size: cover;
+    //background-color:rgba(0,0,0,.229);
+  }
+
+  &-header {
+    font-family: Nunito;
+    font-style: normal;
+    color: white;
+    padding-top:1%;
+ }
+
+  &-input {
+    width: 50%;
+    margin: 0 25% 1% 25%;
+    border: solid 0.5px black;
+    background-color: white;
+
+    input {
+      width: 95%;
+      height: 100%;
+      text-align: start;
+      outline: none;
+      border: none;
+      vertical-align: middle;
+      padding-bottom: 0.5%;
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    //
+    //input{
+    //width: 50%;
+    //  height: 100%;
+    //
+    //}
+    //img{
+    //  max-height: 100%;
+    //  max-width: 100%;
+    //
+    //}
+  }
+
+  &-parameters {
+    margin: 0 25% 0 25%;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Nunito;
+    font-style: normal;
+    color: ghostwhite;
+
+
+  }
+
+  &-categories {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 5px;
+
+    &__name {
+      margin-right: 5px;
+      font-family: Nunito;
+      font-style: normal;
+      font-size: 18px;
+
+    }
+    &__select {
+      background: #FFFFFF;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      border: #FFFFFF;
+      padding-left: 10px;
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      //margin-left: 10px;
+      outline: none;
+      cursor: pointer;
+
+    }
+
+  }
+
+  &-sorting {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    &__name {
+      margin-right: 5px;
+      font-family: Nunito;
+      font-style: normal;
+      font-size: 18px;
+
+    }
+
+    &__select {
+      background: #FFFFFF;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      border: #FFFFFF;
+
+      padding-left: 10px;
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      //margin-left: 10px;
+      outline: none;
+      cursor: pointer;
+
+    }
+  }
+}
