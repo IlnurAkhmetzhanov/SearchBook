@@ -37,7 +37,7 @@ export const setBooksData = (bookName:string) => async (dispatch: any) => {
     const data = await getBooksData(bookName);
     dispatch(setBooksDataActionCreator(data))
 };
-const setCurrentTitleActionCreator=(currentTitle:any)=>({
+export const setCurrentTitleActionCreator=(currentTitle:any)=>({
     type:SET_CURRENT_TITLE,
     currentTitle
 })

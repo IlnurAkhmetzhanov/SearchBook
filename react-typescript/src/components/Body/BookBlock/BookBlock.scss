@@ -1,0 +1,38 @@
+.BookBlock {
+  &-wrapper {
+    background-color: #dbdbdf;
+    width: 70%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+
+  &-icon {
+    margin-top: 7%;
+    max-width: 100%;
+
+    img {
+      width: 70%;
+      height: 70%;
+    }
+  }
+
+  &-title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 6%;
+  }
+
+  &-author {
+    display: grid;
+    justify-content: start;
+    font-family: Nunito;
+    font-style: normal;
+    color: #959599;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+}

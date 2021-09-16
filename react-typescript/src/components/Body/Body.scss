@@ -1,0 +1,12 @@
+.Body{
+  &-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 3%;
+  }
+  &-error{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
