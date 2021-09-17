@@ -7,6 +7,7 @@ import {BookBlock} from "../Body/BookBlock/BookBlock";
 export const Search = () => {
 
     const [refInput, setRef] = useState<any>(useRef())
+    const currentTitle=useSelector((state:any)=>state.booksReducer.currentTitle)
     const dispatch = useDispatch()
     return (
         <div className={"Search-wrapper"}>
@@ -17,7 +18,7 @@ export const Search = () => {
             <div className={"Search-input"}>
 
 
-                <input placeholder={"Введите название книги.."} ref={refInput} onChange={() => {
+                <input placeholder={"Введите название книги.."} ref={refInput}  onChange={() => {
                     dispatch(setCurrentTitleActionCreator(refInput.current.value))
                 }}/>
 
